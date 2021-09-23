@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Ajouter{% endblock %}
+
+{% block body %}
+
+<h1 class="text-center mb-4">Liste des formulaire d'ajout</h1>
+
+<p class="text-center mb-4"><a href="{{path('ajout_classe')}}">Ajouter une classe</a></p>
+
+<p class="text-center mb-4"><a href="{{path('ajout_prof')}}">Ajouter un professeur</a></p>
+
+<p class="text-center mb-4"><a href="{{path('ajout_eleve')}}">Ajouter un élève</a></p>
+
+{% endblock %}
